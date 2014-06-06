@@ -1,0 +1,23 @@
+html { 
+	background: url(../images/home_1440.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body { background-color: transparent; }
+
+h1 { color: #fff;font-weight: normal; font-size: 5em; }
+h1 span { display: block; font-size: .5em; }
+footer { position:fixed; bottom:0; }
+
+.navbar .container-fluid { padding-left:25px; }
+.navbar-inverse { 
+	-webkit-box-shadow: 0 8px 6px -6px #000;
+	-moz-box-shadow: 0 8px 6px -6px #000;
+	box-shadow: 0 8px 6px -6px #000; 
+}
+.navbar-inverse a.navbar-brand { color: #fff; }
+.cube { display:inline-block; width: 15px; height: 15px; background-color: #fbc300; }
+.content { background: transparent url("../images/opacity_sliver.png") repeat-x top left; color:#ededed; border-radius: 4px; padding:15px; font-size: 1em; line-height:2em; }
